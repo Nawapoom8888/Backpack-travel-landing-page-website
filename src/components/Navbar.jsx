@@ -51,10 +51,14 @@ export default function Navbar() {
           </NavLink>
 
           <span
-            className="border-test flex cursor-pointer items-center text-4xl font-semibold text-amber-500 md:hidden"
+            className="border-test flex cursor-pointer items-center font-semibold text-amber-500 md:hidden"
             onClick={Dropdown}
           >
-            {dropDown ? <RxCross2 /> : <FiMenu />}
+            {dropDown ? (
+              <RxCross2 className="text-3xl" />
+            ) : (
+              <FiMenu className="text-3xl" />
+            )}
           </span>
 
           <ul className="border-test hidden gap-10 text-lg font-medium md:flex">
