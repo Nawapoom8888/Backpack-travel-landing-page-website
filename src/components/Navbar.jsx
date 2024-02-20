@@ -31,7 +31,7 @@ export default function Navbar() {
       <div
         className={`border-test sticky z-20 w-full bg-gray-100 shadow md:bg-transparent md:shadow-none  ${
           scrolled
-            ? "md:bg-gradient-to-r md:from-slate-950 md:to-sky-950 md:shadow-lg"
+            ? "md:bg-gradient-to-r md:from-slate-950 md:to-slate-800 md:shadow-lg"
             : null
         }`}
       >

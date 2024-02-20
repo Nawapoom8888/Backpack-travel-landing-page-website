@@ -13,7 +13,7 @@ export default function PackageSection() {
           <h1 className="text-lg md:text-xl">Recommend Packages For You</h1>
         </div>
         <div className="mt-10">
-          <div className="grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
             {packages.map((item) => {
               return <PackagesBox {...item} />;
             })}

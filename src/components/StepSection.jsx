@@ -14,9 +14,9 @@ export default function Step() {
           <h1 className="text-lg md:text-xl">3 Simple Steps For Booking</h1>
         </div>
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-white px-6 py-10">
-            <div className="mb-2 flex rounded-full bg-amber-500 p-6 text-6xl text-white">
-              <RiMapPinFill />
+          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10">
+            <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
+              <RiMapPinFill className="text-4xl" />
             </div>
             <h1 className="header-text py-5 text-center text-xl font-bold">
               1: Choose your Destination
@@ -28,9 +28,9 @@ export default function Step() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-white px-6 py-10">
-            <div className="mb-2 rounded-full bg-amber-500 p-6 text-6xl text-white">
-              <FaMoneyBillWave />
+          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10">
+            <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
+              <FaMoneyBillWave className="text-4xl" />
             </div>
             <h1 className="header-text py-5 text-center text-xl font-bold">
               2: Online Payment
@@ -42,9 +42,9 @@ export default function Step() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-white px-6 py-10 md:relative md:left-[55%] lg:left-0 lg:flex">
-            <div className="mb-2 rounded-full bg-amber-500 p-6 text-6xl text-white">
-              <FaPlane />
+          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10 md:relative md:left-[55%] lg:left-0 lg:flex">
+            <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
+              <FaPlane className="text-4xl" />
             </div>
             <h1 className="header-text py-5 text-center text-xl font-bold">
               3: Fly to Thailand

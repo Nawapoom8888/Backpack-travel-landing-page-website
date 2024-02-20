@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <div className="mt-0 w-full bg-gradient-to-r from-slate-950 to-sky-950 text-gray-300 md:mt-28">
+    <div className="mt-0 w-full bg-gradient-to-r from-slate-950 to-slate-800 text-gray-300 md:mt-28">
       <div className="container px-8 py-10 sm:px-10">
         <div className="border-test mb-10 flex w-full flex-col items-center justify-center">
           <div className="border-test mb-4 text-center text-xl">
