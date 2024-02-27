@@ -16,11 +16,25 @@ export default function HeaderNavigation(props) {
     >
       <div className="container relative top-[72px] flex h-[24rem] w-full flex-col justify-center px-10 text-center">
         <div className="relative md:-top-3">
-          <h1 className="mb-3 text-5xl font-semibold text-white">
+          <h1
+            className="mb-3 text-5xl font-semibold text-white"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             {props.title}
           </h1>
 
-          <div className="mb-5 text-xl text-white">
+          <div
+            className="mb-5 text-xl text-white"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <span className="text-white transition-all duration-200 hover:text-amber-500 hover:underline">
               <Link to="/">Home</Link>
             </span>

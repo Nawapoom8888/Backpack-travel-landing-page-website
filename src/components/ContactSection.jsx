@@ -8,7 +8,14 @@ export default function ContactSection() {
   return (
     <div className="container h-full w-full pt-0">
       <div className="grid grid-cols-1 gap-14 md:grid-cols-2">
-        <div className="border-test">
+        <div
+          className="border-test"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-offset="0"
+          data-aos-once="true"
+        >
           <div className="border-test mb-8 text-center md:text-left">
             <h1 className="mb-2 text-2xl font-bold">Contact</h1>
             <p className="text-gray-600">
@@ -50,7 +57,14 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="border-test">
+        <div
+          className="border-test"
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-duration="1000"
+          data-aos-offset="0"
+          data-aos-once="true"
+        >
           <div className="border-test">
             <form action="/" className="grid grid-cols-1 gap-5">
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">

@@ -10,6 +10,11 @@ export default function BookingForm() {
             backgroundImage: `url(${process.env.PUBLIC_URL}/images/booking-bg.webp)`,
             boxShadow: `inset 0 0 0 2000px rgba(0, 0, 0, 0.62)`,
           }}
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+          data-aos-offset="0"
+          data-aos-once="true"
         >
           <form className="p-8 md:p-12">
             <div>

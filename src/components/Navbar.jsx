@@ -27,7 +27,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50 w-full">
+    <div
+      className="sticky top-0 z-50 w-full"
+      data-aos="fade-down"
+      data-aos-delay="300"
+      data-aos-duration="1000"
+      data-aos-offset="0"
+      data-aos-once="true"
+    >
       <div
         className={`border-test sticky z-20 w-full bg-gray-100 shadow md:bg-transparent md:shadow-none  ${
           scrolled

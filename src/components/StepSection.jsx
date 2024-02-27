@@ -7,14 +7,29 @@ export default function Step() {
   return (
     <section className="mt-20 w-full md:mt-32">
       <div className="container px-8 sm:px-10">
-        <div className="mb-10 text-center">
+        <div
+          className="mb-10 text-center"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-offset="0"
+          data-aos-once="true"
+        >
           <h1 className="mb-1 text-4xl font-extrabold text-amber-500 md:text-5xl">
             Step
           </h1>
           <h1 className="text-lg md:text-xl">3 Simple Steps For Booking</h1>
         </div>
+
         <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10">
+          <div
+            className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
               <RiMapPinFill className="text-4xl" />
             </div>
@@ -28,7 +43,14 @@ export default function Step() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10">
+          <div
+            className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10"
+            data-aos="fade-up"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
               <FaMoneyBillWave className="text-4xl" />
             </div>
@@ -42,7 +64,14 @@ export default function Step() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10 md:relative md:left-[55%] lg:left-0 lg:flex">
+          <div
+            className="flex flex-col items-center border-[3px] border-amber-500 bg-gray-50 px-6 py-10 md:relative md:left-[55%] lg:left-0 lg:flex"
+            data-aos="fade-up"
+            data-aos-delay="900"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <div className="mb-2 flex items-center justify-center rounded-full bg-amber-500 p-6 text-white">
               <FaPlane className="text-4xl" />
             </div>

@@ -2,7 +2,14 @@ import React from "react";
 
 export default function PackagesBox(props) {
   return (
-    <div className="grid grid-rows-[15rem_3rem_1fr] bg-white shadow-md">
+    <div
+      className="grid grid-rows-[15rem_3rem_1fr] bg-white shadow-md"
+      data-aos="fade-up"
+      data-aos-delay="300"
+      data-aos-duration="1000"
+      data-aos-offset="0"
+      data-aos-once="true"
+    >
       <div className="w-full overflow-hidden">
         <div
           className="h-full w-full bg-cover bg-center bg-no-repeat transition-all duration-500 ease-in-out hover:scale-110"

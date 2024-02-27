@@ -14,7 +14,14 @@ export default function ServiceSection() {
     <section className="mt-20 w-full md:mt-32">
       <div className="container px-8 sm:px-10">
         <div className="flex flex-col items-center justify-center">
-          <div className="mb-10 text-center">
+          <div
+            className="mb-10 text-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <h1 className="mb-1 text-4xl font-extrabold text-amber-500 md:text-5xl">
               Services
             </h1>

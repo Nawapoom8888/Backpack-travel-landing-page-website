@@ -2,7 +2,13 @@ import React from "react";
 
 export default function DestinationBox(props) {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-delay="300"
+      data-aos-duration="1000"
+      data-aos-offset="0"
+      data-aos-once="true"
+    >
       <div
         className="h-[32rem] w-auto bg-cover bg-center bg-no-repeat duration-200 hover:cursor-pointer hover:opacity-80"
         style={{

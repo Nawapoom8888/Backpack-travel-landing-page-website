@@ -21,16 +21,37 @@ export default function HeroSection() {
         }}
       >
         <div className="container relative flex h-full flex-col items-center justify-center p-10 text-center md:-top-5">
-          <h1 className="mb-6 text-4xl font-bold text-white sm:text-5xl">
+          <h1
+            className="mb-6 text-4xl font-bold text-white sm:text-5xl"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             Make Your Holiday In Thailand With Us
           </h1>
 
-          <p className="mb-8 text-base font-normal text-white sm:text-xl">
+          <p
+            className="mb-8 text-base font-normal text-white sm:text-xl"
+            data-aos="fade-up"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             Join us for an unforgettable vacation with comfortable
             accommodations and expert guides!
           </p>
 
-          <form className="border-test flex w-full items-center rounded-full bg-white py-1 sm:w-[60%]">
+          <form
+            className="border-test flex w-full items-center rounded-full bg-white py-1 sm:w-[60%]"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-offset="0"
+            data-aos-once="true"
+          >
             <input
               type="text"
               required
