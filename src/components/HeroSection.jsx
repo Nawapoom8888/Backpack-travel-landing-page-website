@@ -6,7 +6,7 @@ export default function HeroSection() {
     <div
       className="relative -top-[72px]"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero-homepage.webp)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero-homepage.jpg)`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
